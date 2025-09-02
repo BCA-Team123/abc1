@@ -2,7 +2,7 @@ const http=require("http");
 
 const mysql=require("mysql2");
 const server=http.createServer((req,res)=>{
-    res.end("hello backend");
+    res.end("hello bro backend");
 })
 
 const db=mysql.createConnection({
